@@ -1,0 +1,299 @@
+.header{
+  height: 79px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 70px;
+  width: calc(100% - 70px * 2 ); 
+}
+.header-logo{
+  color: #252B42;
+  font-weight: bold;
+  cursor: pointer;
+}
+.header-logo:hover,
+.contacts-btn:hover,
+.sign-btn:hover,
+.main-contacts-btn:hover,
+.main-sign-btn:hover{
+  opacity: 0.4;
+  transition: 0.5s
+}
+.header-buttons button{
+  margin-left: 60px;
+}
+.contacts-btn{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  border: none;
+  background: none;
+  letter-spacing: 0.2px;
+  color: #737373;
+  cursor: pointer;  
+}
+.sign-btn{
+  width: 186px;
+  height: 40px;
+  border: 2px solid #FF685B;
+  color: #FF685B;
+  border-radius: 7px;
+  background: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  cursor: pointer;
+}
+.header-line{
+  width: 100%;
+  height: 1px;
+  background: #000000;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+  max-width: 1045px;
+}
+.main-title{
+  margin-top: 86px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  color: #252B42;
+  font-size: 30px;
+}
+.main-buttons button{
+  margin-right: 10px;
+}
+.main-contacts-btn{
+  width: 128px;
+  height: 52px;
+  background: #FF685B;
+  border-radius: 5px;
+  border: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.main-contacts-btn:disabled{
+  opacity: 0.5;
+}
+.main-sign-btn{
+  width: 155px;
+  height: 52px;
+  background: #FFFFFF;
+  border: 1px solid #FF685B;
+  border-radius: 5px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #FF685B;
+  cursor: pointer;
+}
+.login-form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.main-logged{
+  margin-left: 197px;
+}
+.main-logged-title{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+  margin-top: 71px;
+}
+.main-login-buttons{
+  margin-top: 10px;
+  text-align: center;
+}
+.main-logged-sign-btn:hover,
+.main-logged-contacts-btn:hover{
+  opacity: 0.4;
+  transition: 0.5s;
+}
+.main-logged-buttons button{
+  margin-right: 10px;
+}
+.main-logged-sign-btn{
+  width: 228px;
+  height: 52px;
+  background: #FF685B;
+  border-radius: 5px;
+  border: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.main-logged-contacts-btn{
+  width: 228px;
+  height: 52px;
+  background: #FFFFFF;
+  border: 1px solid #FF685B;
+  border-radius: 5px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #FF685B;
+  cursor: pointer;
+}
+.contacts-title{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 58px;  
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+  margin-left: 197px;
+  margin-top: 184px;
+}
+.main-block{
+ display: flex;
+ flex-direction: row;
+ margin-top: 115px;
+ gap: 1.8em;
+}
+.main-block-card{
+  width: 328px;
+  height: 248px;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  background: #FFFFFF;
+}
+.main-block-card__img{
+  padding: 35px 0 0 40px;
+}
+.main-block-card__title{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+  padding-left: 40px;
+}
+.main-block-card__line{
+  width: 50px;
+  height: 2px;
+  background: #E74040;
+  margin-left: 40px; 
+}
+.main-block-card__text{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  padding: 10px 0 0 40px;
+}
+@media(max-width: 1050px){
+  .main-block{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media(max-width: 690px){
+  .main-logged-buttons button{
+    margin-bottom: 10px;
+  }
+  .main-block{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .main-block-card:nth-child(1){
+    order: 2;
+  }
+  .main-block-card:nth-child(2){
+    order: 1;
+  }
+  .main-block-card:nth-child(3){
+    order: 3;
+  }
+}
+@media(max-width: 590px){
+  .header-buttons{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+}
+@media(max-width: 490px){
+  .header{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 400px;
+  }
+  .header-buttons{
+    align-items: center;
+  }
+  .header-buttons button{
+    margin: auto;
+  }
+}
+@media(max-width: 470px){
+  .contacts-title{
+    margin-left: 30px;
+  }
+}
+@media(max-width: 435px){
+  .main-logged{
+    margin-left: 40px;
+  }
+}
+@media(max-width: 380px){
+   .header{
+     width: 250px;
+   }
+  .main-title{
+    font-size: 22px;
+    text-align: center;
+  }
+}
+@media(max-width: 350px){
+  .sign-btn{
+    width: 100px;
+  }
+  .header{
+    margin: 0 10px;
+  }
+}
+@media(max-width: 305px){
+  .contacts-title{
+      font-size: 48px;
+  }
+}
